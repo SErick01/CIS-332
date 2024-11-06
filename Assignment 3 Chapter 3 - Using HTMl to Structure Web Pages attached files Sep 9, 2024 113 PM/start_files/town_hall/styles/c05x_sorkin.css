@@ -1,0 +1,83 @@
+/* Styles for HTML Here */
+html {
+    background: yellow;
+}
+
+/* Styles for Image Here */
+img {
+    float: left;
+    padding-top: .5em;
+    padding-right: 1em;
+}
+
+/* Styles for Main Here */
+main {
+    padding: 1.5em;
+}
+
+/* Styles for Body Here */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 650px;
+    margin: 1em auto;
+    border: 9px double blue;
+    background: white;
+}
+
+/* Styles for Headers Here */
+h1 {
+    font-size: 150%;
+    color: blue;
+    height: 1em;
+    margin-top: -0.1em;
+}
+
+h2 {
+    font-size: 125%;
+    margin-top: 1em;
+    margin-bottom: .1em;
+}
+
+h3 {
+    font-size: 115%;
+    height: .5em;
+}
+
+/* Styles for Cite Here */
+cite {
+    color: blue;
+    font-style: normal;
+    margin-top: -1.2em;
+}
+
+.right-align {
+    float: right;
+}
+
+/* Styles for Blockquote Here */
+blockquote {
+    margin: 0em auto;
+}
+
+/* Styles for List Here */
+ul {
+    margin-left: -1.4em;
+    margin-bottom: 0.1em;
+    height: 4em;
+}
+
+li {
+    height: 1.4em;
+}
+
+/* Styles for Footer Here */
+footer {
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+    border-top: 0.2em solid blue;
+    margin: 1em;
+    height: 4em;
+}
+

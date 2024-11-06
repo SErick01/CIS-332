@@ -1,0 +1,40 @@
+/* Styles for Custom Property */
+:root {--global-color-1: #800000;}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;}
+
+header h2 {
+	font-size: 170%;
+	color: var(--global-color-1);
+	text-indent: 30px;}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;}
+
+/* the styles for the header */
+header img {float: left;}
+
+/* Styles for the Link */
+a:hover, a:focus {font-style: italic;}
+
+/* the styles for the main content */
+main {clear: left;}
+
+main h1 {font-size: 150%;}
+
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;}
+	
+main h3 {font-size: 105%;}
+
+/* Styles for Class Selector */
+.shadow {text-shadow: 2px 2px 2px var(--global-color-1);}
+
+/* the styles for the footer */
+footer p {text-align: center;}

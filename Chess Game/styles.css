@@ -1,0 +1,21 @@
+/* Styles for Classes Here */
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: inline-block;
+    margin: -.1px;
+    font-size: 80px;
+    text-align: center;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+}
+.black {
+    background-color: grey;
+    color: black;
+}
+
+/* Styles for Body Here */
+body {
+    text-align: center;
+}

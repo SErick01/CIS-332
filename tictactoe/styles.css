@@ -1,0 +1,21 @@
+/* Styles of Class Here */
+.Cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* Styles of ID Here */
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+#gameContainer {
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
