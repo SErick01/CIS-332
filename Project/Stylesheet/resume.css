@@ -14,15 +14,51 @@ body {
 div {
   border-radius: 5px;
 }
-  
+
 #header {
-  height: 1em;
-  width: 100%;
-  padding-top: 1.9em;
-  padding-bottom: 1em;
+  height: 5em;
   background-color: rgba(154, 154, 247, 0.548);
   position: fixed;
   z-index: 1;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(154, 154, 247, 0.548);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav_menu {
+  text-align: left;
+  padding-right: 2.47em;
+}
+
+#nav_menu ul {
+  list-style-type: none;
+}
+
+#nav_menu ul li {
+  display: inline;
+  padding: 0 .49em; 
+}
+
+#nav_menu ul li a {
+  font-weight: bold;
+  font-family: 'Times New Roman';
+  color: rgba(0, 138, 170, 0.548);
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+#nav_menu ul li a.current {
+  text-decoration: none;
+}
+
+#nav_menu ul li a:hover {
+  color: rgba(101,110,211);
 }
   
 #footer {
@@ -46,7 +82,7 @@ div {
 }
 
 .left {
-  height: 75em;
+  height: 78em;
   width: 45px;
   background-color: rgba(0, 138, 170, 0.548);
   float: left;
@@ -54,7 +90,7 @@ div {
 }
   
 .right {
-  height: 75em;
+  height: 78em;
   width: 45px;
   background-color: rgba(0, 138, 170, 0.548);
   float: right;
@@ -88,19 +124,4 @@ h4 {
   font-size: 20px;
   padding-top: .5em;
   padding-bottom: .3em;
-}
-
-@media (max-width: 768px) {
-  .left, .right {
-      display: none; /* Hide sidebars on smaller screens */
-  }
-
-  .stuff {
-      margin: 0;
-      width: 100%;
-  }
-
-  #header, #footer {
-      position: static; /* Remove fixed positioning for smaller screens */
-  }
 }
