@@ -1,0 +1,121 @@
+* {
+    max-width: 800px;
+    margin: auto;
+}
+
+html {
+    background-color: rgba(235, 239, 255);
+}
+
+body {
+    min-width: 500px;
+    text-align: center;
+}
+
+div {
+    border-radius: 5px;
+}
+
+#header {
+    height: .9em;
+    width: 100%;
+    padding-top: 2em;
+    background-color: rgba(154, 154, 247, 0.548);
+    position: fixed;
+    z-index: 1;
+}
+
+#footer {
+    height: 2.4em;
+    width: 100%;
+    padding-top: 2em;
+    background-color: rgba(154, 154, 247, 0.548);
+    position: fixed;
+    bottom: 0;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left {
+    height: 74.5em;
+    width: 45px;
+    background-color: rgba(0, 138, 170, 0.548);
+    float: left;
+    position: initial;
+}
+  
+.right {
+    height: 74.5em;
+    width: 45px;
+    background-color: rgba(0, 138, 170, 0.548);
+    float: right;
+    position: initial;
+}
+
+.stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+}
+
+#welcome1 {
+    padding-top: 2em;
+}
+
+#aboutMe {
+    font-size: 160%;
+    padding-left: 1em;
+}
+
+p {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: rgba(59, 186, 219);
+    font-size: 140%;
+    padding-right: 5em;
+}
+
+h1 { 
+    font-size: 200%;
+}
+
+h4 {
+    font-size: 20px;
+    padding-top: .5em;
+    padding-bottom: .3em;
+}
+
+button {
+    margin-right: .5em;
+    margin-left: .5em;
+    border-radius: 1.2em;
+    font-size: 170%;
+    border-color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#hireMe {
+    background-color: rgba(0, 138, 170, 0.548);
+}
+
+#sampleWork {
+    background-color: rgba(154, 154, 247, 0.548);
+}
+
+img {
+    margin-top: 1em;
+    width: 500px;
+}
+
+#contactMe {
+    color: black;
+    font-size: 1em;
+    height: 1.5em;
+    font-size: 100%;
+}
