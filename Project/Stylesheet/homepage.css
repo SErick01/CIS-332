@@ -17,21 +17,26 @@ div {
 }
 
 #header {
-    height: .9em;
+    height: 1em;
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1.9em;
+    padding-bottom: 1em;
     background-color: rgba(154, 154, 247, 0.548);
     position: fixed;
     z-index: 1;
 }
 
 #footer {
-    height: 2.4em;
+    height: 1em;
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1.9em;
+    padding-bottom: 1em;
     background-color: rgba(154, 154, 247, 0.548);
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left, .right {
@@ -46,7 +51,7 @@ div {
     width: 45px;
     background-color: rgba(0, 138, 170, 0.548);
     float: left;
-    position: initial;
+    position: fixed;
 }
   
 .right {
@@ -66,23 +71,23 @@ div {
 }
 
 #welcome1 {
-    padding-top: 2em;
+    padding-top: 3.5em;
+    padding-bottom: 2em;
 }
 
 #aboutMe {
     font-size: 160%;
-    padding-left: 1em;
 }
 
 p {
     font-family: Verdana, Tahoma, sans-serif;
     color: rgba(59, 186, 219);
     font-size: 140%;
-    padding-right: 5em;
 }
 
 h1 { 
     font-size: 200%;
+    padding-bottom: 1em;
 }
 
 h4 {
@@ -92,6 +97,7 @@ h4 {
 }
 
 button {
+    margin-top: 1em;
     margin-right: .5em;
     margin-left: .5em;
     border-radius: 1.2em;
@@ -118,4 +124,6 @@ img {
     font-size: 1em;
     height: 1.5em;
     font-size: 100%;
+    padding-bottom: 0.5em;
+    margin: 0%;
 }

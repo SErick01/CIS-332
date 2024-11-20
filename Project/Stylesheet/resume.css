@@ -1,8 +1,12 @@
 * {
   max-width: 800px;
   margin: auto;
-  }
-  
+}
+
+html {
+    background-color: rgba(235, 239, 255);
+}
+
 body {
   min-width: 500px;
 }
@@ -12,24 +16,37 @@ div {
 }
   
 #header {
-  height: .9em;
+  height: 1em;
   width: 100%;
-  padding-top: 2em;
+  padding-top: 1.9em;
+  padding-bottom: 1em;
   background-color: rgba(154, 154, 247, 0.548);
   position: fixed;
   z-index: 1;
 }
   
 #footer {
-  height: 2.4em;
+  height: 1em;
   width: 100%;
-  padding-top: 2em;
+  padding-top: 1.9em;
+  padding-bottom: 1em;
   background-color: rgba(154, 154, 247, 0.548);
-  position: relative;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-  
+
+.left, .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .left {
-  height: 74.5em;
+  height: 75em;
   width: 45px;
   background-color: rgba(0, 138, 170, 0.548);
   float: left;
@@ -37,7 +54,7 @@ div {
 }
   
 .right {
-  height: 74.5em;
+  height: 75em;
   width: 45px;
   background-color: rgba(0, 138, 170, 0.548);
   float: right;
@@ -50,18 +67,40 @@ div {
   margin-left: 55px;
   width: 75%;
   height: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
 }
   
 p,li {
   font-family: Verdana, Tahoma, sans-serif;
+  line-height: 1.2;
 }
   
 li {
   margin-inline-start: 1em;
 }
-  
+
+h2 {
+  padding-top: 1.2em;
+}
+
 h4 {
   font-size: 20px;
   padding-top: .5em;
   padding-bottom: .3em;
+}
+
+@media (max-width: 768px) {
+  .left, .right {
+      display: none; /* Hide sidebars on smaller screens */
+  }
+
+  .stuff {
+      margin: 0;
+      width: 100%;
+  }
+
+  #header, #footer {
+      position: static; /* Remove fixed positioning for smaller screens */
+  }
 }
