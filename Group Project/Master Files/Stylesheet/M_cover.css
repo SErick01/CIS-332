@@ -1,0 +1,135 @@
+* {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  html {
+    background-color: rgba(235, 239, 255);
+}
+
+  #header {
+    height: 5em;
+    background-color: rgba(154, 154, 247, 0.548);
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_menu {
+    text-align: left;
+    padding-right: 2.2em;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1em; 
+}
+
+#nav_menu ul li a {
+    font-weight: bold;
+    color: rgba(0, 138, 170, 0.548);
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+#nav_menu ul li a.current {
+    text-decoration: none;
+}
+
+#nav_menu ul li a:hover {
+    color: rgba(101,110,211);
+}
+
+  body {
+      min-width: 500px;
+  }
+  
+  div {
+    border-radius: 5px;
+  }
+  
+  #header {
+    height: 1em;
+    width: 100%;
+    padding-top: 1.9em;
+    padding-bottom: 1em;
+    background-color: rgba(154, 154, 247, 0.548);
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #footer {
+    height: 1em;
+    width: 100%;
+    padding-top: 1.9em;
+    padding-bottom: 1em;
+    background-color: rgba(154, 154, 247, 0.548);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left {
+    height: 74.5em;
+    width: 45px;
+    background-color: rgba(0, 138, 170, 0.548);
+    float: left;
+    position: initial;
+  }
+  
+  .right {
+    height: 74.5em;
+    width: 45px;
+    background-color: rgba(0, 138, 170, 0.548);
+    float: right;
+    position: initial;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 1000px;
+  }
+  
+  div {
+    padding: 1em 0;
+  }
+
+  h1 {
+    font-size: 200%;
+    padding-top: 2em;
+  }
+
+  h2 {
+    font-size: 120%;
+    padding-top: .5em;
+  }
+
+  h3 {
+    font-size: 100%;
+  }
+
+  p {
+    font-family: Verdana, Tahoma, sans-serif;
+  }

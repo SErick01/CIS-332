@@ -1,0 +1,153 @@
+* {
+    max-width: 100%;
+    margin: auto;
+  }
+  #header {
+    height: 5em;
+    background-color: rgba(154, 154, 247, 0.548);
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_menu {
+    text-align: left;
+    padding-right: 2.2em;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1em; 
+}
+
+#nav_menu ul li a {
+    font-weight: bold;
+    color: rgba(0, 138, 170, 0.548);
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+#nav_menu ul li a.current {
+    text-decoration: none;
+}
+
+#nav_menu ul li a:hover {
+    color: rgba(101,110,211);
+}
+
+body {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    min-width: 500px;
+}
+
+h1 {
+    text-align: left;
+    padding-bottom: .5em;
+}
+
+#title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+main img {
+    width: 100%;
+    max-width: 500px;
+}
+
+section1 {
+    width: 30%;
+    float: left;
+    padding-left: .25em;
+    padding-top: 1em;
+}
+
+section2 {
+    width: 30%;
+    float: left;
+    padding: 1em 3.5em 5em 3.5em;
+}
+
+section3 {
+    width: 30%;
+    float: left;
+    padding-top: 1em;
+    
+}
+
+footer {
+    clear: both;
+}
+
+#header {
+    height: 1em;
+    width: 100%;
+    padding-top: 1.9em;
+    padding-bottom: 1em;
+    background-color: rgba(154, 154, 247, 0.548);
+    position: fixed;
+    z-index: 1;
+  }
+  
+  #footer {
+    height: 1em;
+    width: 100%;
+    padding-top: 1.9em;
+    padding-bottom: 1em;
+    background-color: rgba(154, 154, 247, 0.548);
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left {
+    height: 85em;
+    width: 45px;
+    background-color: rgba(0, 138, 170, 0.548);
+    float: left;
+    position: initial;
+  }
+  
+  .right {
+    height: 85em;
+    width: 45px;
+    background-color: rgba(0, 138, 170, 0.548);
+    float: right;
+    position: initial;
+  }
+  
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    width: 90%;
+    height: 1000px;
+  }
+  
+  h1 {
+    padding-top: 2em;
+  }
+
+  p {
+    font-family: Verdana, Tahoma, sans-serif;
+  }

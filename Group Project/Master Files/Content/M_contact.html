@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Stylesheet/M_contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="M_homepage.html">Homepage</a></li>
+                <li><a href="M_resume.html">Resume</a></li>
+                <li><a href="M_coverLetter.html">Cover Letter</a></li>
+                <li><a href="M_sampleWork.html">Sample Work</a></li>
+                <li><a href="M_contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="left"></div>
+    <div class="right"></div>
+    <main class="stuff">
+        <h1 id="title">Contact Page</h1> <hr>
+        <div>
+            <h2>Let's Get in Touch!</h2>
+            <p>Have a question or need assistance? <br>
+            Fill out the form below!</p>
+            <p>Or give me a call at <a href="tel:555-555-5555">555-555-5555</a></p>
+            <p>Nice hearing from you!</p>
+        </div>
+
+        <section class="contact">
+            <form action="#">
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                        <div class="error-txt">Full Name can't be blank</div>
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
+                        <div class="error-txt email">Email Address can't be blank</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="input-field field">
+                        <input type="text" placeholder="Phone Number"
+                        id="phone" class="item" autocomplete="off">
+                        <div class="error-txt">Phone Number can't be blank</div>  
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
+                        <div class="error-txt">Subject can't be blank</div>
+                    </div>
+                </div>
+
+                <div class="textarea-field field">
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+                    <div class="error-txt">Message can't be blank</div>
+                </div>
+
+                <button type="submit">Send Email</button>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy;2024 Anna Hou, Taruna Suryawanshi, Samantha Erickson</p>
+    </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
